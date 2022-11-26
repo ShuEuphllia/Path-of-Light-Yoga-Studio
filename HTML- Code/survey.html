@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Path of Light Yoga Studio :: Music</title>
+<meta charset="utf-8">
+<link href="yoga.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<!--[if lt IE 9]>
+<script src=”http://html5shim.googlecode.com/svn/trunk/html5.js”>
+</script>
+<![endif]-->
+</head>
+<style>
+form { font-family:Arial;
+	font-size:90%;
+padding-left: 5px;
+margin-top:10px; }
+label { display: block; }
+legend, label {font-weight: bold; }
+fieldset { width: 480px;
+	margin: 10px 0}
+textarea, select { display: block;
+margin-bottom: 10px; }
+</style>
+
+</head>
+
+<body>
+<div id="wrapper">
+<header>
+<h1>Path of Light Yoga Studio</h1>
+</header>
+<nav>
+<ul>
+  <li><a href="index.html">Home</a></li> 
+  <li><a href="classes.html">Classes</a></li> 
+  <li><a href="schedule.html">Schedule</a></li> 
+  <li><a href= "about.html">About</a></li>
+  <li><a href="survey.html">Survey</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<main>
+<h2>Yoga Class Survey</h2>
+
+<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+
+<label for="myName"> Name: </label><input type="text" id="myName" name="myName" style="margin-bottom: 2em">
+
+<label for="myEmail"> E-mail: </label><input type="email" id="myEmail" name="myEmail" style="block; margin-bottom: 2em">
+
+<fieldset><legend>What type of yoga class did you take?</legend>
+
+<label><input type="checkbox" name="Pop" id="Pop" value="Yes"> Gentle Hatha Yoga</label>
+
+<label><input type="checkbox" name="Classical" id="Classical" value="Yes"> Vinyasa Yoga</label>
+
+<label><input type="checkbox" name="Rock" id="Rock" value="Yes"> Restorative Yoga</label>
+
+</fieldset>
+<br>
+<fieldset><legend>How frequently do you attend yoga class?</legend>
+
+<label><input type="radio" value="Everyday" checked="checked"
+
+name="Frequency" id="PracticeEverday"> Everyday</label>
+
+<label><input type="radio" value="Weekly" checked="checked"
+
+name="Frequency" id="PracticeWeekly"> Weekly</label>
+
+<label><input type="radio" name="Frequency" value="Monthly" checked="checked"
+
+id="PracticeMonthly"> Monthly</label>
+
+<label><input type="radio" name="Frequency" value="A Few Each Year" checked="checked"
+
+id="PracticeFew"> A few each year</label>
+
+</fieldset>
+<br>
+<fieldset><legend>How long have you take yoga class?</legend>
+
+<label><input type="radio" value="JustStarted" checked="checked"
+
+name="Frequency" id="=PeriodJustStarted"> I have recenlty started a yoga practice</label>
+
+<label><input type="radio" value="Less" checked="checked"
+
+name="Frequency" id="PeriodLess"> Less than 2 years</label>
+
+<label><input type="radio" name="Frequency" value="2-5 years" checked="checked"
+
+id="Period2-5"> 2-5 years</label>
+
+<label><input type="radio" name="Frequency" value="5-10 years" checked="checked"
+
+id="Period5-10"> 5-10 years</label>
+
+<label><input type="radio" name="Frequency" value="Over 10 years" checked="checked"
+
+id="PeriodOver"> Over 10 years</label>
+
+</fieldset>
+<br>
+<label for="locations">What is your main reason for coming to our studio?</label>
+
+<select size="3" name="locations" multiple="multiple" id="locations" >
+
+<option value="None selected" selected="selected">Select one or more</option>
+
+<option value="At home">Relaxation</option>
+
+<option value="In car">Weight Loss</option>
+
+<option value="Anywhere">Fun</option>
+
+<option value="At home">Stretching</option>
+
+<option value="In car">Friend/Socializing</option>
+
+</select>
+<br>
+<fieldset><legend>How would you rate your level of satisfaction with us?</legend>
+
+<label><input type="radio" value="Highly satisfied" checked="checked"
+
+name="Frequency" id="=RateHighlysat"> Highly satisfied</label>
+
+<label><input type="radio" value="Somewhat satisfied" checked="checked"
+
+name="Frequency" id="RateSomewhatsat"> Somewhat satisfied</label>
+
+<label><input type="radio" name="Frequency" value="Neutral" checked="checked"
+
+id="RateNeutral"> Neutral</label>
+
+<label><input type="radio" name="Frequency" value="Somewhat dissatisfied" checked="checked"
+
+id="RateSomewhatdis"> Somewhat dissatisfied</label>
+
+<label><input type="radio" name="Frequency" value="Highly dissatisfied" checked="checked"
+
+id="RateHighlydis"> Highly dissatisfied</label>
+
+</fieldset>
+<br>
+<label for="role">If there is anything else you would like to add, please do so below:</label>
+
+<textarea rows="3" name="role" id="role" cols="60"></textarea>
+
+<input type="submit" value="Submit"> <input type="reset">
+</form>
+</main>
+<footer>
+Copyright &copy; 2020 Path of Light Yoga Studio<br>
+<a href="mailto:yourfirstname@yourlastname.com">MelodyAnn@Fuentes.com</a>
+</footer>
+</div>
+</body>
+</html>
