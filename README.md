@@ -5,3 +5,5 @@ Web Application Development (INFO 1213) at Kwantlen Polytechnic University (KPU)
 classes, schedule, about, survey and contact information. The case study is intended to help students learned basic understanding 
 and overview of web application development which allows studies to be creative while following the steps needed 
 to create the project and meet the requirements.  
+
+![alt text](https://github.com/ForceNight12/Path-of-Light-Yoga-Studio/assets/89636568/31e2ef9c-8e14-4381-be26-b75e522f937b)
